@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv(r"C:\Users\acer\Documents\MEGA\Programming\ASPIRE\Python\Economics\debt\nominal_gdp_usd_1960-2025.csv")
+df = pd.read_csv(r"nominal_gdp_usd_1960-2025.csv")
 
 japan = (df.iloc[0])
 x = []
