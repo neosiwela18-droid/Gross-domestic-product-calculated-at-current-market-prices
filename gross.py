@@ -13,19 +13,19 @@ for i, m in japan.items():
 x = x[1:]
 y = y[1:]
 
-chian = (df.iloc[1])
+usa = (df.iloc[1])
 m = []
 t = []
-for h, u in chian.items():
+for h, u in usa.items():
     m.append(h)
     t.append((u))
 m = m[1:]
 t = t[1:]
 
-usa = (df.iloc[2])
+china = (df.iloc[2])
 p = []
 o = []
-for w, d in usa.items():
+for w, d in china.items():
     p.append(w)
     o.append((d))
 p = p[1:]
